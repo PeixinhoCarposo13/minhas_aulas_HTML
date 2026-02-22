@@ -1,0 +1,34 @@
+Vamos aprender HTML
+
+-> É o esqueleto do site.
+-> Extensão "Live server", servidor local simples para o meu site.
+-> Nome do arquivo deve ser "index.html" por questão de padrão.
+-> Para rodar clique com o botao esquerdo e selecione "Open with Live server".
+-> Para fazer uma tag de titulo digite "h1"
+-> Temos uma ordem do "h1" até o "h6" segundo assim do Titulo Maior até o menor 
+dos subtitulos.
+-> A primeira coisa que devemos escrever no arquivo é <!DOCTYPE html> pois ele 
+informa a versão do nosso HTML.
+-> A segunda coisa é colocar a tag "html" pois tudo o que for ser feito no arquivo
+vai ter que estar entre essa tag.
+-> Terceiro passo é separar as informações que vão aparecer visivelmente no site das 
+que não vão aparecer visivelmente no site.
+-> Tag "head" para elementos não visuais.
+-> Tag "Body" para elementos visuais.
+-> Tag "title" para o titulo na "head", entao nao vai ser o titulo dentro do site.
+-> Tag "meta" para inserir metadados no "head", sendo esses dados escritos dentro dos
+"<>" ao lado da escrita "meta", voce deve deixar claro o tipo do dado ( por exemplo se 
+vai ser uma descrição) e o conteudo desse dado ( se for uma descrição escreva essa descrição).
+-> No "body" para escrever o cabeçario use "header".
+-> No "body" use para escrever o corpo principal "main".
+-> No "body" use "footer" para escrever o rodapé.
+-> Use a tag "p" para paragrafo.
+-> Use a tag "section para dividir seu conteudo em seções.
+-> Use a tag "strong" para deixar uma frase em destaque.
+-> Use a tag "em" para deixar em um destaque secundário.
+->Use a tag "b" para deixar em negrito e "i" para deixar em itálico.
+->Use a tag "br" para quebrar linha.
+-> Use a tag "abbr" para mostrar o significado de uma abreviação.
+-> Use a tag "form> para o imput do usuário ficar organisado da forma correta.
+-> Use a tag "input" para receber os dados do usuário, { input type="radio" value="pyton" id="p1a" name="pergunta1" } deve ter esses dados.
+-> Use a tag "label" para adicionar a escrita que vai aparecer na tela, { <label for="p1a"> PYTHON </label> }.
