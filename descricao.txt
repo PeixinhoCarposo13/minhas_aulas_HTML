@@ -29,6 +29,23 @@ vai ser uma descrição) e o conteudo desse dado ( se for uma descrição escrev
 ->Use a tag "b" para deixar em negrito e "i" para deixar em itálico.
 ->Use a tag "br" para quebrar linha.
 -> Use a tag "abbr" para mostrar o significado de uma abreviação.
--> Use a tag "form> para o imput do usuário ficar organisado da forma correta.
--> Use a tag "input" para receber os dados do usuário, { input type="radio" value="pyton" id="p1a" name="pergunta1" } deve ter esses dados.
--> Use a tag "label" para adicionar a escrita que vai aparecer na tela, { <label for="p1a"> PYTHON </label> }.
+-> Use a tag "form" para o imput do usuário ficar organisado da forma correta.
+-> Use a tag "input" com "radio" para receber os dados do usuário em multipla escolha, 
+{ input type="radio" value="pyton" id="p1a" name="pergunta1" } deve ter esses dados.
+-> Use a tag "label" para adicionar a escrita que vai aparecer na tela, 
+{ <label for="p1a"> PYTHON </label> }.
+-> Use a tag "input" com "text" para receber os dados do usuário em texto, 
+{ <input type="text" id="p2" name="pergunta2" placeholder="Digite aqui seu texto"> } deve ter esses dados.
+-> Use a tag "input" com "password" para receber os dados do usuário como senha,
+{ <input type="password" id="p3" name="pergunta3" placeholder="Escreva sua senha"> }
+-> Use a tag "input" com "data" para receber os dados do usuário como data,
+{  <input type="date" id="p4" name="pergunta4"> }
+-> Use a tag "input" com "data" para receber os dados do usuário como data,
+{ <input type="date" id="p4" name="pergunta4"> }
+-> Use a tag "input" com "checkbox" para receber os dados do usuário como multipla escolha em que 
+pode ser selecionado mais de uma opção, 
+<input type="checkbox" id="p5a" name="pergunta5" value="Javasscript">
+-> Use a tag "label" para adicionar a escrita que vai aparecer na tela,
+<label for="p5a">Javasscript</label>
+-> Use a tag "input" com "file" para receber os dados do usuário como arquivo,
+ <input type="file" id="p6" name="pergunta 6" >
