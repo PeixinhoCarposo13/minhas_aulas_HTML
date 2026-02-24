@@ -49,3 +49,13 @@ pode ser selecionado mais de uma opção,
 <label for="p5a">Javasscript</label>
 -> Use a tag "input" com "file" para receber os dados do usuário como arquivo,
  <input type="file" id="p6" name="pergunta 6" >
+ -> Use a tag "select" para fazer um menu suspenso.
+ -> Use a tag "option" papa preencher o select.
+ -> Use a tag "img" para adicionar uma imagem.
+ -> Use a tag "table" para criar uma tabela.
+ -> Use a tag "tr" para fazer uma linha de uma tabela.
+ -> Use "td" para escrever dentro do "tr".
+ ->Use a tag "thead" para criar o cabeçalho da "table"
+ ->Use "th" para adicionar escrita na "thead"
+ ->Use "tbody" para adicionar as escritas do corpo da tabela
+ ->Use "tfoot" para escrever o rodapé da tabela.
