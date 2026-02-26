@@ -59,3 +59,15 @@ pode ser selecionado mais de uma opção,
  ->Use "th" para adicionar escrita na "thead"
  ->Use "tbody" para adicionar as escritas do corpo da tabela
  ->Use "tfoot" para escrever o rodapé da tabela.
+ ->Use "ul" para criar uma lista não numerada.
+ ->Use "ol" para criar uma lista numerada.
+ -> Use "li" para adicionar dados em uma lista.
+ ->Use "details" para esconder a lista até o usuario clicar nela.
+ ->Use "summary para dar um titulo ao "details".
+ ->Use "form" para criar um formulario
+ -> dentro do "input" existe o type "email" que é de uso exclusivo para email.
+ -> Use "textarea" para criar uma caixa de texto grande.
+ -> Use "fieldset" para englobar o formulário.
+ -> Use "legend" para criar uma legenda para esse formulário.
+ -> Use "& + algum código" para gerar um simbolo.
+ ->Use "a" para criar uma palavra que ao clicar leva para outro site.

@@ -41,21 +41,21 @@
         </form>
       </section>
       <!-- Pergunta 3 - senha -->
-       <section>
+      <section>
         <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
         <form>
           <input type="password" id="p3" name="pergunta3" placeholder="Escreva sua senha">
         </form>
-       </section>
-       <!--Pergunta 4 - data-->
-       <section>
+      </section>
+      <!--Pergunta 4 - data-->
+      <section>
         <h2>Em que ano o HTML lançou sua primeira verção?</h2>
         <form>
           <input type="date" id="p4" name="pergunta4">
         </form>
-       </section>
-       <!--pergunta 5 - seleção multipla -->
-       <section>
+      </section>
+      <!--pergunta 5 - seleção multipla -->
+      <section>
         <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
         <form >
           <input type="checkbox" id="p5a" name="pergunta5" value="Javasscript">
@@ -67,16 +67,16 @@
           <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
           <label for="p5d">CSS</label>
         </form>
-       </section> 
-       <!-- pergunta 6 - upload de arquivo-->
-        <section>
+      </section> 
+      <!-- pergunta 6 - upload de arquivo-->
+      <section>
           <h2>Faça o upload de um arquivo contendo um código de HTML.</h2>
           <form>
             <input type="file" id="p6" name="pergunta 6" >
           </form>
-        </section>
-        <!-- pergunta 7 - menu suspenso-->
-         <section>
+      </section>
+      <!-- pergunta 7 - menu suspenso-->
+      <section>
           <h2>Pergunta 7: selecione o atributo do input que define o seu tipo</h2>
           <form>
             <select name="pergunta7" id="p7">
@@ -85,18 +85,18 @@
               <option value="placeholder">placeholder</option>
             </select>
           </form>
-         </section>
-         <!--Pergunta 8: imagem-->
-         <section>
+      </section>
+      <!--Pergunta 8: imagem-->
+      <section>
           <h2>Qual linguagem de programação é representada pelo logo abaixo</h2>
           <figure>
             <img src="./images/56172.webp" alt="Logotipo de uma imagem de linguagem de programação"><br>
             <figcaption>Figura 1: Logotipo de uma imagem de uma linguagem da programação</figcaption>
           </figure>
           <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta">
-         </section>
-         <!-- Tabela de pontuação-->
-          <section>
+      </section>
+      <!-- Tabela de pontuação-->
+      <section>
             <h2>Tabela de pontuações</h2>
             <table border="1">
               <thead>
@@ -131,9 +131,45 @@
                 </tr>
               </tfoot>
             </table>
-          </section>
+      </section>
+      <!-- Lista de respostas-->
+      <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+              <summary>Clique aqui para visualisar as respostas...</summary>
+              <ol>
+                <li>HTML</li>
+                <li>Dominio</li>
+                <li>ab!123</li>
+                <li>1991</li>
+                <li>Javascript, Java</li>
+                <li>Arquivo teve ter extensão .html</li>
+                <li>type</li>
+                <li>java</li>
+              </ol>
+            </details>
+      </section>
+      <!--Formulário de Feedback-->
+      <section>
+        <h2>Nos de seu Feedback</h2>
+        <form>
+          <fieldset>
+            <legend>Informações para contato</legend>
+            <label for="name">NOME: </label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">EMAIL: </label>
+            <input type="email" id="email" name="email"><br>
+            <label for="comments">COMENTÁRIOS: </label><br>
+            <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea>
+          </fieldset>
+        </form>
+      </section>
+          
     </main>
-    <footer></footer>
+    <footer>
+      <p>&copy;Quiz de programação. Todos os direitos reservados</p>
+      <p>Para conhecer mais sobre mim <a href="hello_word.html" target="_blank">clique aqui</a></p> 
+    </footer>
   </body>
 
 </html>
